@@ -1,0 +1,31 @@
+
+.comment_user{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-transform:capitalize;
+   
+}
+.comment_area{
+    width: 90%;
+    min-height: 100px;
+    word-wrap: break-word;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.like_counts{
+    padding-left: 20px;
+}
+.like_count{
+    padding-left: 10px;
+}
+
+.user_icon{
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    text-transform: uppercase;
+    width: 30px;
+    text-align: center;
+   
+}

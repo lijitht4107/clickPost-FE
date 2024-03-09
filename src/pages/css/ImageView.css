@@ -1,0 +1,8 @@
+.image-card-nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+body{
+    background-color: #e4e48e;
+}

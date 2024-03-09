@@ -1,0 +1,13 @@
+.like_dislike{
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 3rem;
+   
+}
+.like_dislike button{
+    border-radius: 5px;
+    padding: 3px;
+    border: none;
+    background-color:#fe4365 ;
+    color: #c8c8a9;
+}

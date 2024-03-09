@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LoginBox from './components/LoginBox';
+import SignupBox from './components/SignupBox';
+import FrontInterface from './pages/FrontFace';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import { Toastcontainer } from './components/commen/ToastContainer';
+import 'react-toastify/dist/ReactToastify.css';
+import Home from './pages/Home';
+import AddImage from './components/AddImage';
+import ImageView from './pages/ImageView';
+import Profile from './pages/Profile';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Toastcontainer/>
+    <BrowserRouter>
+    <Routes>
+      
+      <Route path='/' element={<FrontInterface/>}/>
+      
+      <Route path='/signup' element={<SignupBox/>}/>
+      <Route path='/Login' element={<LoginBox/>}/>
+      <Route path='/home' element={<Home/>}/>
+      <Route path='/addimage' element={<AddImage/>} />
+      <Route path='/imageview/:id' element={<ImageView/>}/>
+      <Route path='/profile' element={<Profile/>}/>
+
+      
+
+    </Routes>
+    
+    </BrowserRouter>
+    </>
   );
 }
 

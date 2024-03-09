@@ -1,0 +1,19 @@
+.comment-area{
+    list-style-type: none;
+    font-style: italic;
+    color:rgba(230, 12, 12, 0.938);
+} 
+
+.comment-user{
+    text-transform: capitalize;
+    margin-top: 1rem;
+    color: #2a363b;;
+    text-decoration:underline ;
+}
+.comment-subBtn{
+    background-color: #2a363b;
+    color: #99b898;
+    border-radius: 5px;
+    border: none;
+    width: 7rem;
+}

@@ -1,0 +1,31 @@
+.sign-page{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.sign{
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+}
+.sign-in{
+
+    height: 2.5rem;
+    
+    margin: 20px;
+    width: 700px;
+    border-radius: 7px;
+    border: solid black 1px;
+}
+.sign-btnn{
+    background-color: rgb(34, 147, 185);
+    text-align: center;
+    margin-left: 320px;
+    border-radius: 5px;
+    width: 8rem;
+    border: none;
+    height: 2.5rem;
+}
+.ss{
+    text-align: center;
+}

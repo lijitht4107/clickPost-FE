@@ -1,0 +1,32 @@
+.login-page{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.log{
+    align-items: center;
+    padding-top: 300px;
+    justify-content: center;
+   
+}
+.log-in{
+
+    height: 2.5rem;
+    
+    margin: 20px;
+    width: 700px;
+    border-radius: 7px;
+    border: solid black 1px;
+}
+.btnn{
+    background-color: rgb(34, 147, 185);
+    text-align: center;
+    margin-left: 320px;
+    border-radius: 5px;
+    width: 8rem;
+    border: none;
+    height: 2.5rem;
+}
+.dd{
+    text-align: center;
+}

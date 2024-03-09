@@ -1,0 +1,51 @@
+body{
+    background-color: #c8c8a9;
+}
+section{
+    margin: 1rem;
+}
+.card{
+    width: 100%;
+  
+}
+.image-datas{
+    border-bottom: solid 1px #c8c8a9 ;
+}
+
+.edit-button{
+    position:fixed;
+    top: 12%;
+    right: 1%;
+}
+.download-btn{
+    position: fixed;
+    top: 18%;
+    right: 1%;
+}
+.delete-btn{
+    position: fixed;
+    top: 26%;
+    right: 1%;
+}
+.editModal-Closebtn{
+    position:absolute;
+    top: 1px;
+    right: 1px;
+    border-radius: 5px;
+    width: 1.5rem;
+    font-size: small;
+    text-align: center;
+    border: none;
+    background: transparent;
+    
+}
+.editModal-Closebtn:hover{
+    color: red;
+    background-color: yellow;
+}
+.editModal{
+    text-transform: capitalize;
+    color: darkblue;
+   margin: 2rem;
+    
+}
