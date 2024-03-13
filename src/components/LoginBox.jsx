@@ -6,6 +6,8 @@ import AxiosInstants from "../config/AxiosInstants";
 import { toastError, toastSuccess } from "../constants/Plugins";
 import { useDispatch} from "react-redux";
 import { setUserDetails } from "../Toolkit/UserSlice";
+import password_icon from '../assets/password-svgrepo-com.svg'
+import email_icon from '../assets/email-svgrepo-com.svg'
 
 function LoginBox() {
   
@@ -61,35 +63,34 @@ function LoginBox() {
     <>
       <FirstNav />
 
-      <div className="login-page ">
-        <div className="container log d-grid ">
-
+      <div className="container login-page ">
+        <h1>login</h1>
+        <div className="input-login">
+          <img className="icons" src={email_icon} alt="" />
           <input
             type="email"
-            className="d-flex log-in"
             placeholder="email"
-            
             value={email}
             onChange={(e)=>setEmail(e.target.value)}
           />
+          </div>
+          <div className="input-login">
+            <img className="icons" src={password_icon} alt="" />
           <input
             type="password"
-            className="d-flex log-in"
-            placeholder="password"
-            
+            placeholder="password" 
             value={password}
             onChange={(e)=>setPassword(e.target.value)}
           />
-         
+         </div>
           <button className="btnn" onClick={handleLogin}>Login</button>
-          <p className="dd">
+          <p className="register">
             Not a member?{" "}
             <i onClick={() => navigate("/signup")}>
               Register
             </i>
           </p>
         </div>
-      </div>
     </>
   );
 }

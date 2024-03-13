@@ -1,31 +1,40 @@
-.sign-page{
-    background-color: black;
-    height: 100vh;
-    color: white;
-}
-.sign{
-    align-items: center;
-    padding-top: 10px;
-    justify-content: center;
-}
-.sign-in{
 
-    height: 2.5rem;
-    
-    margin: 20px;
-    width: 700px;
-    border-radius: 7px;
-    border: solid black 1px;
+.sign-page{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 10%;
+margin-left: auto;
+margin-right: auto;
+
+
 }
-.sign-btnn{
+h1{
+    padding: 1%;
+    border-bottom: solid 1px black;
+}
+.signup-icons{
+    width: 3rem;
+    padding: 1%;
+    margin: 0 10px;
+}
+.sign-page .input-area input {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: solid 1px black;
+
+}
+
+.sign-page .sign-btnn{
+
     background-color: rgb(34, 147, 185);
     text-align: center;
-    margin-left: 320px;
     border-radius: 5px;
     width: 8rem;
     border: none;
     height: 2.5rem;
 }
-.ss{
-    text-align: center;
-}
+

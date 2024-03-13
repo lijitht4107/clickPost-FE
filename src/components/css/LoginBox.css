@@ -1,32 +1,35 @@
 .login-page{
-    background-color: black;
-    height: 100vh;
-    color: white;
-}
-.log{
-    align-items: center;
-    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-   
-}
-.log-in{
-
-    height: 2.5rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     
-    margin: 20px;
-    width: 700px;
-    border-radius: 7px;
-    border: solid black 1px;
+}
+.icons{
+    width: 45px;
+    margin: 10px;
+}
+.input-login input{
+    height: 40px;
+    width: 400px;
+    margin-top: 16px;
+    border-radius: 5px;
+    border:solid 1px black;
 }
 .btnn{
+    margin-top: 2%;
     background-color: rgb(34, 147, 185);
     text-align: center;
-    margin-left: 320px;
-    border-radius: 5px;
     width: 8rem;
     border: none;
+    border-radius: 5%;
     height: 2.5rem;
 }
-.dd{
+.register{
     text-align: center;
+    color: blue;
 }

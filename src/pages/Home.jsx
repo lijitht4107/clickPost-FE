@@ -27,9 +27,9 @@ function Home() {
           <Navbar />
         </div>
       </header>
-      <body className="body">
-        <SettingsBtn />
-        <div className="">
+      <body className=" container">
+        
+        <div className="home-images">
           <div className="row p-2 gap-3">
             {imageData.map((image) => (
               <Cards image={image} />

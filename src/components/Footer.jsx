@@ -15,7 +15,7 @@ function Footer() {
   return (
     <>
     <footer className='footer'>
-      <section className='footer-user-area'>
+      {userDetails&&<section className='footer-user-area'>
         <h6> User Area</h6>
         <div>
          <p><b>Name :</b>{userDetails.userName}</p>
@@ -23,7 +23,7 @@ function Footer() {
          <a href="" onClick={Logout}>Logout</a>
         </div>
         <br /><br /> 
-      </section>
+      </section>}
       <br /><br />
       
      <div >

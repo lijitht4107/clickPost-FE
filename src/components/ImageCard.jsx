@@ -11,6 +11,7 @@ import { ModalView } from "../constants/ModalView";
 
 import Likku from "./commen/Likku";
 import CommentArea from "./commen/CommEnt";
+import ImageCarousel from "./ImageCarousel";
 
 function ImageCard() {
   const Navigate = useNavigate();
@@ -23,6 +24,7 @@ function ImageCard() {
   useEffect(() => {
     getSingleImageData(id);
   }, [id]);
+ 
 
   const getSingleImageData = (id) => {
     AxiosInstants.get(`/users/getsingleimage/${id}`, {
@@ -68,10 +70,10 @@ function ImageCard() {
 
   return (
     <>
-      <body className="body">
-        <div className="card pt-5">
+      <body className="container ">
+        <div className="card pt-1">
           <img
-            height={"900px"}
+            height={"100%"}
             src={`${BASE_URL}/pitchers/${imageData[0]?.pitcher}`}
             className="card-img-top"
             alt="Fissure in Sandstone"
@@ -152,6 +154,7 @@ function ImageCard() {
               </button>
             </div>
           </ModalView>
+          
         </div>
       </body>
     </>

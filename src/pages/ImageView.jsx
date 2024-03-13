@@ -6,20 +6,20 @@ import Footer from "../components/Footer";
 
 function ImageView() {
   return (
-    <>
-    <header>
-    <div className="image-card-nav">
-          <Navbar />
-        </div>
-    </header>
-      <body className="body">
-      <ImageCard />
-      </body>
-        <footer>
-          <Footer/>
-        </footer>
-        
+    <> 
+      <div>
       
+        <div className="image-card-nav">
+          <Navbar/>
+        </div>
+      
+      <div className="image-view">
+        <ImageCard />
+      </div>
+      <footer>
+        <Footer />
+      </footer>
+      </div>
     </>
   );
 }
