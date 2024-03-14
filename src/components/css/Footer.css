@@ -6,3 +6,12 @@
 .footer-user-area{
     border-bottom: solid 1px #99b898;
 }
+.describe-page{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+}
+.describe-page div{
+    font-size:medium;
+}

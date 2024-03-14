@@ -25,7 +25,18 @@ function Footer() {
         <br /><br /> 
       </section>}
       <br /><br />
-      
+      <div className='describe-page'>
+        <div className='left-describe'>
+          <p>about page</p>
+          <p>contact</p>
+
+        </div>
+        <div className='right-describe'>
+          <p>about us</p>
+          <p>location</p>
+
+        </div>
+      </div>
      <div >
       <h6 >founder & build by :</h6>
       <p> lijith</p>

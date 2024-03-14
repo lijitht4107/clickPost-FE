@@ -16,10 +16,16 @@ nav{
     display: inline-block;
 }
 .nav-area{
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 9px;
+
     width: 100%;
     background-color: #2A363B;
     color: white;
-    padding: .5rem;
+
     text-align: center;
     text-transform: capitalize;
     text-decoration: none;
@@ -32,12 +38,22 @@ nav{
     cursor: pointer;
 }
 .nav-item{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
    list-style-type: none; 
-   width: 80px;
+   width: 70px;
    padding-top: 10px;
+}
+.nav-logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .nav-content{
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 #ser{
     border-radius: 5px;
