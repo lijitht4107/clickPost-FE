@@ -49,7 +49,6 @@ function CommentArea({ id }) {
   return (
     <>
       <h2 >Comment Section</h2>
-      {/* Comment form */}
       <form onSubmit={handleSubmitComment}>
         <textarea
           value={newComment}
@@ -70,7 +69,7 @@ function CommentArea({ id }) {
               <div key={index}>
                 <h6 className="comment-user">{comment.userName}</h6>
                 <li className="px-5 comment-area">{comment.comment}</li>
-              </div> // Assuming 'comment' field holds the actual comment text
+              </div> 
             ))}
           </ul>
         ) : (

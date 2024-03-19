@@ -3,7 +3,6 @@ import Navbar from "../components/commen/Navbar";
 import Cards from "../components/Cards";
 import AxiosInstants from "../config/AxiosInstants";
 import "./css/Home.css";
-import SettingsBtn from "../aditionalCompo/SettingsBtn";
 import Footer from "../components/Footer";
 
 function Home() {

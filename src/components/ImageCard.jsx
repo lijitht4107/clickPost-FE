@@ -8,10 +8,7 @@ import downloadIcon from "../assets/download-svgrepo-com.svg";
 import editBtn from "../assets/edit-3-svgrepo-com.svg";
 import deleteBtn from "../assets/delete-svgrepo-com.svg";
 import { ModalView } from "../constants/ModalView";
-
-import Likku from "./commen/Likku";
 import CommentArea from "./commen/CommEnt";
-import ImageCarousel from "./ImageCarousel";
 
 function ImageCard() {
   const Navigate = useNavigate();
@@ -80,7 +77,7 @@ function ImageCard() {
           />
           
           <section>
-          <Likku/>
+          {/* <Likku/> */}
           </section>
           <div className="image-datas">
           <h3>{imageData[0]?.title}</h3>
