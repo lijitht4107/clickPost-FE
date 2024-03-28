@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/FrontInterface.css";
 import FooterFront from "../components/commen/Footer";
+import { Link } from "react-router-dom";
 
 function FrontFace() {
   return (
@@ -11,7 +12,7 @@ function FrontFace() {
           <h1 className="front-body-text">
             make your world with your camera{" "}
             <button className=" d-grid  btn btn-info">
-              <a href="/signup">start</a>
+              <Link to="/signup">start</Link>
             </button>
           </h1>{" "}
         </div>
