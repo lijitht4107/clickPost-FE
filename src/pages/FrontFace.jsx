@@ -5,13 +5,16 @@ import { Link } from "react-router-dom";
 
 function FrontFace() {
   return (
-    <div>
-      <h3 className="head">CLICK_POST</h3>
-      <div className="front-area">
+    <>
+    <div >
+      <div className="container">
+      <h3 className="head ">CLICK_POST</h3>
+      
+      </div><div className="front-area">
         <div className="front-page">
           <h1 className="front-body-text">
             make your world with your camera{" "}
-            <button className=" d-grid  btn btn-info">
+            <button className="  btn btn-info">
               <Link to="/signup">start</Link>
             </button>
           </h1>{" "}
@@ -21,6 +24,7 @@ function FrontFace() {
         <FooterFront/>
       </div>
     </div>
+    </>
   );
 }
 
