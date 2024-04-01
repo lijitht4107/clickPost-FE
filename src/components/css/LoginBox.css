@@ -14,8 +14,7 @@
     margin: 10px;
 }
 .input-login input{
-    height: 40px;
-    width: 400px;
+    padding: .5rem 1rem;
     margin-top: 16px;
     border-radius: 5px;
     border:solid 1px black;

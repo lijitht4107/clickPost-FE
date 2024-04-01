@@ -21,8 +21,7 @@ h1{
     margin: 0 10px;
 }
 .sign-page .input-area input {
-    height: 40px;
-    width: 400px;
+    padding: .5rem 1rem;
     border-radius: 5px;
     border: solid 1px black;
 
