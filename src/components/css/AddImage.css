@@ -8,5 +8,6 @@
     color: red;
     text-transform:capitalize;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 400%;
+    font-size: 2rem;
+    font-weight: .5rem;
 }
