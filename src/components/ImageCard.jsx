@@ -40,7 +40,7 @@ function ImageCard() {
     AxiosInstants.get(imageUrl, { responseType: "blob" })
       .then((res) => {
         const blob = new Blob([res.data]);
-        saveAs(blob, imageData.pitcher); // Provide a filename for the downloaded image
+        saveAs(blob, imageData[0].pitcher); // Provide a filename for the downloaded image
       })
       .catch((err) => {
         console.log(err);
