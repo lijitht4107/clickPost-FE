@@ -13,11 +13,13 @@ function FrontFace() {
       </div><div className="front-area">
         <div className="front-page">
           <h1 className="front-body-text">
-            make your world with your camera{" "}
-            <button className="  btn btn-info">
+            make your world with your camera
+            </h1>
+            <div className="start-button-area">
+            <button className="  start-button">
               <Link to="/signup">start</Link>
             </button>
-          </h1>{" "}
+            </div>
         </div>
       </div>
       <div className="footer">
