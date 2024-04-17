@@ -30,7 +30,7 @@ import { useSelector } from "react-redux";
     }
     const addImageData=()=>{
         let fileData=new FormData();
-        fileData.append('image',imageAdd)
+        fileData.append("image",imageAdd)
         AxiosInstants.post('/users/AddImages',fileData,{params:formValue, userId: userId },{Headers:{'content-Type':'multipart/form-data'}}).then((response)=>{
           toastSuccess('added image succesfully')
             navigate('/home')

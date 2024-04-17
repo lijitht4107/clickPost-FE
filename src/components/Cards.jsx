@@ -17,7 +17,7 @@ export default function Cards({image}) {
   <div className='image-show'>
     <div style={{width:'100%',height:"100%",border:'none'}} className=' card-img col-12 col-md-3 col-lg-4 col-xl-2 col-xxl-1  '>
       
-      <MDBCardImage onClick={()=>navigate(`/imageview/${image?._id}`)} src={`${BASE_URL}/pitchers/${image.pitcher}`} position='top' alt='...' />
+      <MDBCardImage onClick={()=>navigate(`/imageview/${image?._id}`)} src={`${BASE_URL}/pitchers/${image.pitcher}`} position='top' alt='loading' />
       <MDBCardBody>
         <MDBCardTitle >{image?.title}</MDBCardTitle>
         <MDBCardText>

@@ -28,7 +28,7 @@ function CommentArea({ id }) {
           console.log(response);
 
           //   setComments([...comments, newComment]);
-          setNewComment("");
+          setNewComment(" ");
           
         })
         .catch((err) => {
@@ -40,6 +40,7 @@ function CommentArea({ id }) {
     AxiosInstants.get(`/users/${id}/comments`)
       .then((response) => {
         setComments(response.data);
+        
       })
       .catch((error) => {
         console.log(error);
