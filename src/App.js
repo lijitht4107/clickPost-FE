@@ -10,6 +10,8 @@ import Home from './pages/Home';
 import AddImage from './components/AddImage';
 import ImageView from './pages/ImageView';
 import Profile from './pages/Profile';
+import {  UserAuth } from './authorization/Authorization';
+
 
 
 function App() {
@@ -23,11 +25,13 @@ function App() {
       
       <Route path='/signup' element={<SignupBox/>}/>
       <Route path='/Login' element={<LoginBox/>}/>
+      
+      <Route element={<UserAuth/>}>
       <Route path='/home' element={<Home/>}/>
       <Route path='/addimage' element={<AddImage/>} />
       <Route path='/imageview/:id' element={<ImageView/>}/>
       <Route path='/profile' element={<Profile/>}/>
-
+      </Route>
       
 
     </Routes>
