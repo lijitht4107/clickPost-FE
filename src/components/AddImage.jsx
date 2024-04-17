@@ -3,13 +3,13 @@ import "./css/AddImage.css";
 import Navbar from "./commen/Navbar";
 import AxiosInstants from "../config/AxiosInstants";
 import { toastSuccess } from "../constants/Plugins";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 import { useSelector } from "react-redux";
 
 
  function AddImage() {
   const navigate=useNavigate()
-  const {id}=useParams()
+ 
   const {userDetails}=useSelector((state)=>state.user)
   const userId = userDetails._id
     const [formValue, setFormValue] = useState({
@@ -42,6 +42,7 @@ import { useSelector } from "react-redux";
       
 
       <div className="container mt-5 d-grid p-3 text-center add-img-form">
+       
         <h1 className="text-center add-img-hedding">image selection area</h1>
         <label className="pt-5" htmlFor="images">
           select a image :<input type="file" name="images" id="images" onChange={onImage}/>
@@ -53,9 +54,11 @@ import { useSelector } from "react-redux";
         <label htmlFor="">
           description :<input type="text" name="Description" value={formValue.Description} onChange={onChanging}/>
         </label>
-        <div className="p-3">
-        <button className=" btn btn-primary px-5" onClick={addImageData}>submit</button>
+        
+        <div className="p-3 ">
+        <button className=" btn btn-primary px-5 " onClick={addImageData}>submit</button>
         </div>
+        
       </div>
 
      

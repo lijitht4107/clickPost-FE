@@ -1,14 +1,19 @@
 .comment-area{
     list-style-type: none;
-    font-style: italic;
-    color:rgba(230, 12, 12, 0.938);
+    font-family: "Rubik", sans-serif;
+    color:rgba(105, 96, 96, 0.938);
 } 
 
 .comment-user{
+    display: inline-block;
+    font-family: "Josefin Sans", sans-serif;
     text-transform: capitalize;
     margin-top: 1rem;
-    color: #2a363b;;
-    text-decoration:underline ;
+    color: #2a2e30;;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: #e2eaef;
+
 }
 .comment-subBtn{
     background-color: #2a363b;
