@@ -45,7 +45,7 @@ function CommentArea({ id }) {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [comments]);
 
   return (
     <>
