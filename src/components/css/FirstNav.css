@@ -13,8 +13,7 @@
 }
 .nav-icon:hover{
     cursor: pointer;
-    border: solid black 0.5px;
-    border-radius: 5px;
+    
 }
 .nav-sinlog{
     background-color: rgb(215, 43, 43);
@@ -25,7 +24,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nav-sinlog:hover{
-    background-color: rgb(244, 101, 101);
+    background-color: rgb(99, 52, 52);
     color: white;
     cursor: pointer;
 }
