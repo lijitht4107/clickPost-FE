@@ -22,9 +22,13 @@ function SignupBox() {
           toastSuccess("sigup successfull");
           navigate("/login");
         }
-        if (res.data.message === "email already exist") {
+        else if  (res.data.message === "email already exist") {
           toastError("email alread exist");
         }
+        else{
+          toastError("credentials not filled");
+        }
+       
       })
       .catch((err) => {
         console.log(err);

@@ -83,7 +83,7 @@ function LoginBox() {
             onChange={(e)=>setPassword(e.target.value)}
           />
          </div>
-          <button className="btnn" onClick={handleLogin}>Login</button>
+          <button className="login-btnn" onClick={handleLogin}>Login</button>
           <p className="register">
             Not a member?{" "}
             <i onClick={() => navigate("/signup")}>

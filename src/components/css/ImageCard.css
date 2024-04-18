@@ -16,6 +16,14 @@ section{
 }
 .image-datas{
     border-bottom: solid 1px #c8c8a9 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-datas p {
+    color: #7e7e6f;
 }
 
 .edit-button{
@@ -23,15 +31,36 @@ section{
     top: 12%;
     right: 1%;
 }
+.edit-button:hover{
+    background-color: #c8c8a9;
+    border-radius: 5px;
+}
+.edit-button:active{
+    width: 2rem;
+}
 .download-btn{
     position: fixed;
     top: 18%;
     right: 1%;
 }
+.download-btn:hover{
+    background-color: #c8c8a9;
+    border-radius: 5px;
+}
+.download-btn:active{
+    width: 2rem;
+}
 .delete-btn{
     position: fixed;
     top: 26%;
     right: 1%;
+}
+.delete-btn:hover{
+    background-color: #c8c8a9;
+    border-radius: 5px;
+}
+.delete-btn:active{
+    width: 2rem;
 }
 .editModal-Closebtn{
     position:absolute;

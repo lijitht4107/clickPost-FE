@@ -20,6 +20,10 @@
     font-size: 1.5rem;
     
 }
+.start-button:active{
+    width: 6.2rem;
+    font-size: 1.6rem;
+}
 .start-button-area{
     text-align: center;
 }

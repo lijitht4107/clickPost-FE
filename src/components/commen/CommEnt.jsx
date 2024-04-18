@@ -49,7 +49,7 @@ function CommentArea({ id }) {
 
   return (
     <>
-      <h2 >Comment Section</h2>
+      <h4 >Comment Section</h4>
       <form onSubmit={handleSubmitComment}>
         <textarea
           value={newComment}
@@ -63,7 +63,7 @@ function CommentArea({ id }) {
       </form>
 
       <div>
-        <h4>Comments</h4>
+        <h5 className="mt-4">Comments</h5>
         {comments.length > 0 ? (
           <ul>
             {comments.map((comment, index) => (

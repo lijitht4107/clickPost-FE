@@ -19,7 +19,7 @@
     border-radius: 5px;
     border:solid 1px black;
 }
-.btnn{
+.login-btnn{
     margin-top: 2%;
     background-color: rgb(34, 147, 185);
     text-align: center;
@@ -27,6 +27,11 @@
     border: none;
     border-radius: 5%;
     height: 2.5rem;
+}
+.login-btnn:active{
+    width: 8.3rem;
+    height: 2.6rem;
+    font-size: 20px;
 }
 .register{
     text-align: center;

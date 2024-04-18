@@ -80,9 +80,13 @@ function ImageCard() {
           {/* <Likku/> */}
           </section>
           <div className="image-datas">
+            <div>
           <h3>{imageData[0]?.title}</h3>
-          <h6>{imageData[0]?.description}</h6>
+          <p className="img-description">{imageData[0]?.description}</p>
+          </div>
+          <div>
           <p>{imageData[0]?.timeStamp}</p>
+          </div>
           </div>
 
 
