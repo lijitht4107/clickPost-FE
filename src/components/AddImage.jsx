@@ -10,7 +10,8 @@ function AddImage() {
   const navigate = useNavigate();
 
   const { userDetails } = useSelector((state) => state.user);
-  const userId = userDetails._id;
+  
+  const userId = userDetails.userId;
   const [formValue, setFormValue] = useState({
     title: "",
     Description: "",

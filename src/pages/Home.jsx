@@ -26,16 +26,16 @@ function Home() {
           <Navbar />
         </div>
       </header>
-      <body className=" container">
+      <div className=" container">
         
         <div className="home-images">
           <div className="row p-2 gap-3">
-            {imageData.map((image) => (
-              <Cards image={image} />
+            {imageData.map((image,index) => (
+              <Cards key={index} image={image} />
             ))}
           </div>
         </div>
-      </body>
+      </div>
       <footer>
         <Footer />
       </footer>
