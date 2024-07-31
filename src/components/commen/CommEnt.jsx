@@ -5,7 +5,7 @@ import '../css/CommEnt.css'
 
 function CommentArea({ id }) {
   // State variables
-  const [comments, setComments] = useState([]);
+  const [comments, setComments] = useState('');
   const [newComment, setNewComment] = useState("");
   const { userDetails } = useSelector((state) => state.user);
 
@@ -45,7 +45,7 @@ function CommentArea({ id }) {
       .catch((error) => {
         console.log(error);
       });
-  }, [comments]);
+  },[]);
 
   return (
     <>
